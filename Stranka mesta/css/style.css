@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: lightgray;
+    letter-spacing: 1.5;
+}
+
+.main-header {
+    background-image: url("../images/bardejov-2382784_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    height: 1000px;
+    box-shadow: 0 15px 20px -12px rgba(0,0,0, .8);
+    margin-bottom: 4em;
+}
+
+.arrow {
+    width: 50px;
+    padding-top: 40px;
+}
+
+h1{
+    font-size: 6em;
+    font-weight: 400;
+    text-shadow: 4px 4px 10px rgba(0,0,0, .5);
+}
+
+h2 {
+    color: #D9663D;
+    margin-bottom: 1em;
+}
+
+h3 {
+    color: #D9663D;
+    margin-bottom: 1em;
+}
+
+.secondary-content h2 {
+    margin-top: 25px;
+}
+
+.title {
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 10em;
+    padding: 5px;
+    border-bottom: 2px solid white;
+}
+
+main,
+footer {
+    width: 70%;
+    margin: auto;
+}
+.primary-content,
+.secondary-content,
+.another-content {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.primary-content {
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 40px;
+}
+
+.another-content {
+    margin-top: 35px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding: 25px 35px;
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.firstCard,
+.thirdCard,
+.fifthCard {
+    float: left;
+    width: 42%;
+}
+
+.secondCard,
+.fourthCard,
+.sixthCard {
+    float: right;
+    width: 42%;
+}
+
+.group:after,
+.group2:after,
+.group3:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.group3 {
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 40px;
+}
+
+.panoramaBardejov {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin-top: 25px;
+    box-shadow: 0 15px 20px -12px rgba(0, 0, 0, .8);
+}
+
+footer {
+    text-align: center;
+    border-top: 10px solid #D9663D;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+@media (max-width: 1300px) {
+    main {
+        width: 90%;
+    }
+
+    .main-header {
+        height: 850px;
+    }
+
+    .firstCard,
+    .secondCard,
+    .thirdCard,
+    .fourthCard,
+    .fifthCard,
+    .sixthCard {
+        float: none;
+        width: 75%;
+        margin: auto;
+    }
+
+    .secondCard,
+    .fourthCard,
+    .sixthCard {
+        margin-top: 25px;
+    }
+
+    .secondary-content,
+    .another-content {
+        margin-top: 25px;
+    }
+
+    .title {
+        border: none;
+        font-size: 1em;
+        margin-top: 8em;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .main {
+        width: 100%;
+    }
+
+    .title{
+        margin-top: 12em;
+    }
+
+    .hlavnyNadpis {
+        font-size: 3em;
+    }
+
+    .main-header {
+        height: 850px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+
+}

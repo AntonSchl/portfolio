@@ -1,0 +1,61 @@
+
+body {
+  background-color: #E9CCBE;
+}
+
+.logo {
+  width: 145px;
+}
+.jumbotronMainCustom {
+  background-image: url("../images/food-2068217_1920.jpg");
+  background-size: cover;
+  color: #fff;
+  min-height: 500px;
+}
+
+.jumbotronSmallLeft{
+  background-image: url("../images/beer-barrel-956322_1920.jpg");
+  background-size: cover;
+  color: #fff;
+  min-height: 500px;
+}
+
+.jumbotronSmallRight{
+  background-image: url("../images/steak-2936531_1920.jpg");
+  background-size: cover;
+  color: #fff;
+  min-height: 500px;
+}
+
+.jumbotronRanking {
+  background-image: url("../images/bar-406884_1920.jpg");
+  background-size: cover;
+  color: #fff;
+  height: 300px;
+}
+
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.footer {
+  background-image: url("../images/wood-2045380_1920.jpg");
+  background-size: cover;
+  color: #fff;
+  height: auto;
+}
+
+.address,
+.openingHours {
+  padding-top: 25px;
+}
+
+.footerLogo {
+  width: 200px;
+  padding-bottom: 15px;
+}
+
+
