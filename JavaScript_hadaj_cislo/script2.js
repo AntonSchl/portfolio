@@ -15,7 +15,7 @@ if(+(guess) === randomNumber){
     }
 }
 if (correctGuess){
-    document.write("<p>Uhádol si. Gratulujem!!</p>");
+    document.write("<p>Uhádol si. Gratulujem!!!</p>");
 }else {
     document.write(`<p>Žiaľ neuhádol si!! Číslo na ktoré som myslel bolo ${randomNumber}.</p>`);
 }
